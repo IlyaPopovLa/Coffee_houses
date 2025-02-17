@@ -37,7 +37,7 @@ def my_distance(coords):
             "distance": distance_to_shop,
             "longitude": data['Longitude_WGS84'],
             "latitude": data['Latitude_WGS84']
-            }
+        }
         coffee_shops.append(coffee_shop)
     return coffee_shops
 
