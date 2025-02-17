@@ -33,11 +33,11 @@ def my_distance(coords):
         shop_coords = (data['Latitude_WGS84'], data['Longitude_WGS84'])
         distance_to_shop = distance.distance(coords, shop_coords).km
         coffee_shop = {
-        "title": data['Name'],
-        "distance": distance_to_shop,
-        "longitude": data['Longitude_WGS84'],
-        "latitude": data['Latitude_WGS84']
-        }
+            "title": data['Name'],
+            "distance": distance_to_shop,
+            "longitude": data['Longitude_WGS84'],
+            "latitude": data['Latitude_WGS84']
+            }
         coffee_shops.append(coffee_shop)
     return coffee_shops
 
